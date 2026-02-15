@@ -1,0 +1,92 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	Species (Kraken2)
+COLOR	#000000
+LEGEND_TITLE	Species (Kraken2)
+LEGEND_SHAPES	1	1	1	1	1
+LEGEND_COLORS	#3B5BA9	#1F9E89	#E07A5F	#7A5195	#4D908E
+LEGEND_LABELS	Enterococcus avium	Enterococcus casseliflavus	Enterococcus faecalis	Enterococcus faecium	Enterococcus sp. HSIEG1
+DATA
+72855	#E07A5F	Enterococcus faecalis
+72882	#1F9E89	Enterococcus casseliflavus
+72927	#E07A5F	Enterococcus faecalis
+73054	#1F9E89	Enterococcus casseliflavus
+73201	#E07A5F	Enterococcus faecalis
+73338	#E07A5F	Enterococcus faecalis
+73611	#7A5195	Enterococcus faecium
+74016	#7A5195	Enterococcus faecium
+74089	#E07A5F	Enterococcus faecalis
+75125	#7A5195	Enterococcus faecium
+75176	#7A5195	Enterococcus faecium
+75411	#E07A5F	Enterococcus faecalis
+75520	#E07A5F	Enterococcus faecalis
+75582	#E07A5F	Enterococcus faecalis
+75715	#E07A5F	Enterococcus faecalis
+75746	#7A5195	Enterococcus faecium
+75840	#E07A5F	Enterococcus faecalis
+76174	#7A5195	Enterococcus faecium
+76302	#E07A5F	Enterococcus faecalis
+76304	#E07A5F	Enterococcus faecalis
+76646	#E07A5F	Enterococcus faecalis
+76746	#E07A5F	Enterococcus faecalis
+76793	#E07A5F	Enterococcus faecalis
+76952	#E07A5F	Enterococcus faecalis
+76967	#7A5195	Enterococcus faecium
+76985	#E07A5F	Enterococcus faecalis
+77019	#E07A5F	Enterococcus faecalis
+77340	#7A5195	Enterococcus faecium
+77364	#E07A5F	Enterococcus faecalis
+77448	#7A5195	Enterococcus faecium
+77566	#E07A5F	Enterococcus faecalis
+77655	#E07A5F	Enterococcus faecalis
+77771	#E07A5F	Enterococcus faecalis
+77804	#E07A5F	Enterococcus faecalis
+78036	#E07A5F	Enterococcus faecalis
+78039	#7A5195	Enterococcus faecium
+78041	#7A5195	Enterococcus faecium
+78203	#7A5195	Enterococcus faecium
+78272	#E07A5F	Enterococcus faecalis
+78438	#7A5195	Enterococcus faecium
+78506	#E07A5F	Enterococcus faecalis
+78507	#E07A5F	Enterococcus faecalis
+78555	#7A5195	Enterococcus faecium
+78894	#7A5195	Enterococcus faecium
+79576	#E07A5F	Enterococcus faecalis
+79578	#E07A5F	Enterococcus faecalis
+79579	#E07A5F	Enterococcus faecalis
+79707	#E07A5F	Enterococcus faecalis
+79867	#E07A5F	Enterococcus faecalis
+80213	#E07A5F	Enterococcus faecalis
+80275	#E07A5F	Enterococcus faecalis
+80343	#E07A5F	Enterococcus faecalis
+80344	#E07A5F	Enterococcus faecalis
+80411	#E07A5F	Enterococcus faecalis
+80564	#E07A5F	Enterococcus faecalis
+80725	#7A5195	Enterococcus faecium
+80740	#E07A5F	Enterococcus faecalis
+80797	#E07A5F	Enterococcus faecalis
+80798	#E07A5F	Enterococcus faecalis
+80829	#E07A5F	Enterococcus faecalis
+80889	#7A5195	Enterococcus faecium
+81048	#E07A5F	Enterococcus faecalis
+81314	#E07A5F	Enterococcus faecalis
+81378	#7A5195	Enterococcus faecium
+81440	#E07A5F	Enterococcus faecalis
+81456	#E07A5F	Enterococcus faecalis
+81863	#E07A5F	Enterococcus faecalis
+81956	#E07A5F	Enterococcus faecalis
+81958	#7A5195	Enterococcus faecium
+81973	#E07A5F	Enterococcus faecalis
+82126	#7A5195	Enterococcus faecium
+82128	#E07A5F	Enterococcus faecalis
+82591	#4D908E	Enterococcus sp. HSIEG1
+82961	#7A5195	Enterococcus faecium
+84170	#E07A5F	Enterococcus faecalis
+85134	#E07A5F	Enterococcus faecalis
+85160	#E07A5F	Enterococcus faecalis
+85712	#E07A5F	Enterococcus faecalis
+86253	#7A5195	Enterococcus faecium
+86535	#E07A5F	Enterococcus faecalis
+barcode17	#4D908E	Enterococcus sp. HSIEG1
+barcode18	#1F9E89	Enterococcus casseliflavus
+barcode19	#3B5BA9	Enterococcus avium

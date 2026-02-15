@@ -1,0 +1,27 @@
+AMR mechanisms
+Gene	Class/Mechanism	Color
+erm(B)	MLS	#E76F51
+ErmB	MLS	#E76F51
+lsa(A)	MLS	#E76F51
+efrA	Fluoroquinolone	#7C4D8B
+efrB	Fluoroquinolone	#7C4D8B
+lsaA	MLS	#E76F51
+emeA	Multidrug/Efflux	#F4A261
+dfrE	Folate pathway inhibitor	#8AB17D
+aph(3')-III	Aminoglycoside	#2A9D8F
+APH(3')-IIIa	Aminoglycoside	#2A9D8F
+ant(6)-Ia	Aminoglycoside	#2A9D8F
+aad(6)	Aminoglycoside	#2A9D8F
+SAT-4	Aminoglycoside	#2A9D8F
+tet(M)	Tetracycline	#E9C46A
+tetM	Tetracycline	#E9C46A
+aac(6')-aph(2'')	Aminoglycoside	#2A9D8F
+AAC(6')-Ie-APH(2'')-Ia	Aminoglycoside	#2A9D8F
+dfrG	Folate pathway inhibitor	#8AB17D
+VanHAX	Glycopeptide	#264653
+vanXA	Glycopeptide	#264653
+vanA	Glycopeptide	#264653
+vanHA	Glycopeptide	#264653
+vanSA	Glycopeptide	#264653
+vanRA	Glycopeptide	#264653
+dfrF	Folate pathway inhibitor	#8AB17D

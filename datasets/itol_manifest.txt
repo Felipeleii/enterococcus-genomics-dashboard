@@ -1,0 +1,15 @@
+iTol datasets generated from TORMES unified Enterococcus run
+Tree: /home/felipe/Area/Downloads/Enterococcus/results/tormes_unified/enterococcus_all_83/pangenome/accessory_binary_genes.fa.newick
+Tree selection note: core_gene_alignment.newick has near-zero branch lengths; using accessory_binary_genes.fa.newick for better separation
+Alternative trees checked:
+- /home/felipe/Area/Downloads/Enterococcus/results/tormes_unified/enterococcus_all_83/pangenome/core_gene_alignment.newick
+- /home/felipe/Area/Downloads/Enterococcus/results/tormes_unified/enterococcus_all_83/pangenome/accessory_binary_genes.fa.newick
+Datasets:
+- /home/felipe/Area/Downloads/Enterococcus/results/tormes_unified/itol_datasets/itol_colorstrip_species.txt
+- /home/felipe/Area/Downloads/Enterococcus/results/tormes_unified/itol_datasets/itol_colorstrip_platform.txt
+- /home/felipe/Area/Downloads/Enterococcus/results/tormes_unified/itol_datasets/itol_colorstrip_mlst_st.txt
+- /home/felipe/Area/Downloads/Enterococcus/results/tormes_unified/itol_datasets/itol_binary_minion.txt
+- /home/felipe/Area/Downloads/Enterococcus/results/tormes_unified/itol_datasets/itol_binary_amr_top_genes.txt
+- /home/felipe/Area/Downloads/Enterococcus/results/tormes_unified/itol_datasets/itol_legend_amr_mechanisms.tsv
+- /home/felipe/Area/Downloads/Enterococcus/results/tormes_unified/itol_datasets/itol_binary_virulence_top_genes.txt
+- /home/felipe/Area/Downloads/Enterococcus/results/tormes_unified/itol_datasets/itol_legend_virulence_classes.tsv

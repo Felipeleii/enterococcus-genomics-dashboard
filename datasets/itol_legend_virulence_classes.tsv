@@ -1,0 +1,27 @@
+Virulence classes
+Gene	Class/Mechanism	Color
+cpsA	Capsule/Cell envelope	#14B8A6
+cpsB	Capsule/Cell envelope	#14B8A6
+bopD	Adhesion/Biofilm	#3B82F6
+efaA	Adhesion/Biofilm	#3B82F6
+ebpA	Adhesion/Biofilm	#3B82F6
+ebpB	Adhesion/Biofilm	#3B82F6
+ebpC	Adhesion/Biofilm	#3B82F6
+srtC	Adhesion/Biofilm	#3B82F6
+fss1	Adhesion/Biofilm	#3B82F6
+sprE	Enzyme/Tissue invasion	#F59E0B
+gelE	Enzyme/Tissue invasion	#F59E0B
+fsrC	Regulation/Quorum sensing	#8B5CF6
+fss3	Adhesion/Biofilm	#3B82F6
+EF3023	Capsule/Cell envelope	#14B8A6
+EF0818	Capsule/Cell envelope	#14B8A6
+fsrB	Regulation/Quorum sensing	#8B5CF6
+fsrA	Regulation/Quorum sensing	#8B5CF6
+EF0485	Other	#94A3B8
+ace	Adhesion/Biofilm	#3B82F6
+fss2	Adhesion/Biofilm	#3B82F6
+cpsC	Capsule/Cell envelope	#14B8A6
+cpsD	Capsule/Cell envelope	#14B8A6
+cylI	Toxin/Cytolysin	#EF4444
+cpsE	Capsule/Cell envelope	#14B8A6
+cpsG	Capsule/Cell envelope	#14B8A6

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enterococcus/Burkholderia - Dashboard Interativo</title>
+  <style>
+    :root {
+      --bg: #f3f7f7;
+      --panel: #ffffff;
+      --ink: #102422;
+      --muted: #4f6663;
+      --accent: #0f766e;
+      --line: #d5e7e4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Space Grotesk", "IBM Plex Sans", "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 10% 5%, #d8efe9 0, transparent 28%),
+        radial-gradient(circle at 90% 0%, #d5ece8 0, transparent 20%),
+        var(--bg);
+    }
+    .wrap { max-width: 1440px; margin: 0 auto; padding: 24px; }
+    .hero {
+      background: linear-gradient(120deg, #123b37 0%, #0f766e 100%);
+      color: #f8fffe;
+      border-radius: 18px;
+      padding: 20px;
+      box-shadow: 0 14px 28px rgba(15, 118, 110, 0.25);
+    }
+    .hero h1 { margin: 0; font-size: 1.7rem; }
+    .hero p { margin: 8px 0 0; color: #d4f8f0; }
+    .grid {
+      margin-top: 14px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 12px;
+      box-shadow: 0 8px 18px rgba(16, 65, 60, 0.06);
+    }
+    .panel h2 { margin: 0 0 10px; font-size: 1.1rem; }
+    iframe {
+      width: 100%;
+      min-height: 820px;
+      border: 1px solid #cde0dd;
+      border-radius: 10px;
+      background: #fff;
+    }
+    .tree-box {
+      border: 1px solid #cde0dd;
+      border-radius: 10px;
+      background: #fff;
+      padding: 10px;
+      overflow: auto;
+      max-height: 860px;
+    }
+    .tree-box img { width: 100%; height: auto; display: block; }
+    ul { margin: 8px 0 0; padding-left: 18px; }
+    a { color: #0b6b63; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .note { color: var(--muted); font-size: 0.95rem; }
+    @media (max-width: 980px) {
+      .wrap { padding: 12px; }
+      iframe { min-height: 620px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <h1>Resultados Genômicos Integrados</h1>
+      <p>TORMES (Enterococcus/Burkholderia) e árvore iTol com paleta profissional e trilhas AMR/virulência por mecanismo/classe.</p>
+    </header>
+
+    <section class="grid">
+      <article class="panel">
+        <h2>Relatório TORMES - Enterococcus (83 genomas)</h2>
+        <iframe src="reports/enterococcus_tormes_report.html" loading="lazy"></iframe>
+      </article>
+
+      <article class="panel">
+        <h2>Relatório TORMES - Burkholderia (13 genomas)</h2>
+        <iframe src="reports/burkholderia_tormes_report.html" loading="lazy"></iframe>
+      </article>
+
+      <article class="panel">
+        <h2>Árvore iTol (paleta harmonizada)</h2>
+        <div class="tree-box">
+          <img src="assets/Enterococcus_iTOL_professional.svg" alt="Arvore Enterococcus iTol com paleta profissional" />
+        </div>
+        <p class="note">Para refletir as cores de mecanismo/classe no layout iTol final, reimporte os datasets abaixo no iTol e exporte novamente o SVG.</p>
+      </article>
+
+      <article class="panel">
+        <h2>Datasets iTol e Legendas</h2>
+        <ul>
+          <li><a href="datasets/itol_manifest.txt">itol_manifest.txt</a></li>
+          <li><a href="datasets/itol_colorstrip_species.txt">itol_colorstrip_species.txt</a></li>
+          <li><a href="datasets/itol_colorstrip_platform.txt">itol_colorstrip_platform.txt</a></li>
+          <li><a href="datasets/itol_colorstrip_mlst_st.txt">itol_colorstrip_mlst_st.txt</a></li>
+          <li><a href="datasets/itol_binary_amr_top_genes.txt">itol_binary_amr_top_genes.txt</a></li>
+          <li><a href="datasets/itol_legend_amr_mechanisms.tsv">itol_legend_amr_mechanisms.tsv</a></li>
+          <li><a href="datasets/itol_binary_virulence_top_genes.txt">itol_binary_virulence_top_genes.txt</a></li>
+          <li><a href="datasets/itol_legend_virulence_classes.tsv">itol_legend_virulence_classes.tsv</a></li>
+        </ul>
+      </article>
+    </section>
+  </div>
+</body>
+</html>
